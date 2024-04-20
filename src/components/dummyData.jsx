@@ -1,0 +1,141 @@
+export const Users = [
+    {
+      id:1,
+      profilePicture: "https://play-lh.googleusercontent.com/A9Z7xVmrQxeffsmGMIqGpUUdVYfUnMGbcro9XsJaQA16TKFanEzmZGGhn0vGEF3BSXE=w240-h480-rw",
+      username: "Safak Kocaoglu",
+    },
+    {
+      id:2,
+      profilePicture: "https://i.pinimg.com/originals/89/28/dd/8928dd082b4a398947a3cb233617f217.jpg",
+      username: "Janell Shrum",
+    },
+    {
+      id:3,
+      profilePicture: "https://live.staticflickr.com/65535/49627454961_08e7e16160_z.jpg",
+      username: "Alex Durden",
+    },
+    {
+      id:4,
+      profilePicture: "https://pics.craiyon.com/2023-11-26/oMNPpACzTtO5OVERUZwh3Q.webp",
+      username: "Dora Hawks",
+    },
+    {
+      id:5,
+      profilePicture: "https://pics.craiyon.com/2023-11-26/oMNPpACzTtO5OVERUZwh3Q.webp",
+      username: "Thomas Holden",
+    },
+    {
+      id:6,
+      profilePicture: "https://pics.craiyon.com/2023-11-26/oMNPpACzTtO5OVERUZwh3Q.webp",
+      username: "Shirley Beauchamp",
+    },
+    {
+      id:7,
+      profilePicture: "https://cdn4.sharechat.com/img_956667_31eb4202_1674231952672_sc.jpg?tenant=sc&referrer=pwa-sharechat-service&f=672_sc.jpg",
+      username: "Travis Bennett",
+    },
+    {
+      id:8,
+      profilePicture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAMzDFn1PnLo3s4xkRIaRe4A8jpY7uYQt9fw&usqp=CAU",
+      username: "Kristen Thomas",
+    },
+    {
+      id:9,
+      profilePicture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI4jZBY_yZE5OkFyzPu9O6sDq3Tjwc_KgNlw&usqp=CAU",
+      username: "Gary Duty",
+    },
+    {
+      id:10,
+      profilePicture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPwg2N48-aBJkD1bxXrjdu6y06S1gckTnk6g&usqp=CAU",
+      username: "Safak Kocaoglu",
+    },
+  ];
+  
+  export const Posts = [
+    {
+      id: 1,
+      desc: "Love For All, Hatred For None.",
+      photo: "https://www.pict.edu/pdf/homepage/manthan.jpg",
+      date: "5 mins ago",
+      userId: 1,
+      like: 32,
+      comment: 9,
+      
+    },
+    {
+      id: 2,
+      photo: "https://pict.edu/pdf/homepage/sih.jpg",
+      date: "15 mins ago",
+      userId: 2,
+      like: 2,
+      comment: 1,
+    },
+    {
+      id: 3,
+      desc: "Every moment is a fresh beginning.",
+      photo: "https://i.brecorder.com/wp-content/uploads/2019/12/pict-1024.jpg",
+      date: "1 hour ago",
+      userId: 3,
+      like: 61,
+      comment: 2,
+    },
+    {
+      id: 4,
+      photo: "https://i.pinimg.com/736x/60/e5/31/60e53110690f3338f6dc3ab5883ca778.jpg",
+      date: "4 hours ago",
+      userId: 4,
+      like: 7,
+      comment: 3,
+    },
+    {
+      id: 5,
+      photo: "https://i.pinimg.com/564x/02/0c/5c/020c5c697b44a04d55f8f534e2f84404.jpg",
+      date: "5 hours ago",
+      userId: 5,
+      like: 23,
+      comment: 5,
+    },
+    {
+      id: 6,
+      photo: "https://i.pinimg.com/736x/18/69/ea/1869ea0dfff48def20c4d12721610037.jpg",
+      date: "1 day ago",
+      userId: 6,
+      like: 44,
+      comment: 6,
+    },
+    {
+      id: 7,
+      desc: "Never regret anything that made you smile.",
+      photo: "https://thumbs.dreamstime.com/z/mixed-race-couple-coffee-house-taking-pict-10696433.jpg",
+      date: "2 days ago",
+      userId: 7,
+      like: 52,
+      comment: 3,
+    },
+    {
+      id: 8,
+      photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTozZmGbsWRtGeU4wD1URakmx5l_28DhUV1g&usqp=CAU",
+      date: "3 days ago",
+      userId: 8,
+      like: 15,
+      comment: 1,
+    },
+    {
+      id: 9,
+      desc: "Change the world by being yourself.",
+      photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLSmIdvpSRW5cNMFAAHaQ_1XpaSn2Gcmf8OA&usqp=CAU",
+      date: "5 days ago",
+      userId: 9,
+      like: 11,
+      comment: 2,
+    },
+    {
+      id: 10,
+      photo: "https://images.pexels.com/photos/2808658/pexels-photo-2808658.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      date: "1 week ago",
+      userId: 10,
+      like: 104,
+      comment: 12,
+    },
+  ];
+  

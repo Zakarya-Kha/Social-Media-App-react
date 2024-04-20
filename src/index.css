@@ -1,0 +1,45 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar {
+  flex: 3;
+  height: calc(100vh - 65px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+  width: 300px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(179, 179, 179);
+}
+
+.feed{
+  flex:5.5
+}
+
+.feedWrapper{
+  padding: 20px;
+}
+
+.rightbar {
+  flex: 3.5;
+  height: calc(100vh - 65px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+  width: 300px;
+}
+.zakiprofile{
+  flex: 9 
+  
+}
